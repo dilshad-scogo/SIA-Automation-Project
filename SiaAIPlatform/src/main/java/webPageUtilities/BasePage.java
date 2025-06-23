@@ -26,6 +26,7 @@ public class BasePage {
 		this.driver= driver;
 		PageFactory.initElements(driver, this);
 	}
+	//
 	
 	// WebElements For Profile Tab
 	@FindBy(xpath="//div[@class='aspect-square size-5 cursor-pointer overflow-hidden rounded-full md:size-6 lg:size-7 xl:size-7']")
